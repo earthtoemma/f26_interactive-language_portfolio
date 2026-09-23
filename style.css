@@ -1,64 +1,99 @@
-.the-text {
-    color: #FFFFD5;
-    background-color:#693072;
-    font-size: 12 px;
-    text-align:left;
-    width: 50rem;
-    height: 10rem;
-    overflow: auto;
-    padding: 8px 16px;
-    border: 4px;
-    border-style: none;
-    border-color: rgb(211, 116, 186);
-    border-radius: 18px;
-    margin: 32px;
-    font-family: "Open Sans";
-    text-decoration: none;
-}
 body {
     font-family: "Open Sans";
 }
-header > div a {
-    color: #ffffd5;
-    background-color: #693072;
-    font-size: 12 px;
-    text-align: left;
-    text-decoration: none;
-    font-family: "Open Sans"
-}
 a {
-    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 200;
     text-decoration:none;
     color: #ffffd5;
-
 }
-.the-text:hover {
+a:hover {
     cursor: pointer;
-    background-color: peru;
-    font-size: larger;
+    color: #F5C16C;
 }
-.the-text:active {
-    cursor: pointer;
-    border-color: rgb(5, 109, 141);
-    border: 2px;
+a:active {
+    cursor:grabbing;
+    color: #b7ffb5;
 }
-.header-text {
+.header {
     color: #ffffd5;
     background-color: #693072;
     font-size: 12 px;
     text-align: left;
     text-decoration: none;
     font-family: "Open Sans"
-
 }
-.footer {
+.title {
+    font-size: large;
+    font-family: "Princess Sofia", "Remedy, sans-serif";
+    font-style: normal;
+    font-weight: 400;
+}
+.dragonflyprint {
+    width: 100vw;
+}
+.awcbrochure {
+    width: 100vw;
+}
+.awcpromo {
+ width: 100vw;
+}
+.scopebrochure {
+    width: 100vw;
+}
+.waterbook {
+    width:100vw;
+}
+.circusbook {
+    width: 100vw;
+}
+h2 {
+    font-family: "Princess Sofia"; 
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffd5; 
+}
+h6 {
     color:#FFFFD5;
     background-color: #693072;
     font-size: 6 px;
     font-family: "Open Sans";
     text-decoration: none;
 }
-title {
-    font-size: large;
-    font-family: "Princess Sofia";
+.footer {
+    color: #ffffd5;
+    background-color: #693072;
+    font-size: 6 px;
+    text-align: left;
+    text-decoration: none;
+    font-family: "Open Sans"
+}
+h1 {
+    color: #693072;
+    font-size: 18px;
+}
+h4 {
+    color: #693072;
+    font-size: 14px;
+    font-weight: 200;
+}
+.largertext {
+    color:#693072;
+    font-size: 36px;
+    text-align: center;
+    font-weight:400px;
+}
+.button {
+    color:#693072;
+    background-color: #ffffd5;
+    border-style:dotted;
+    text-align:center;
+    border-radius: 3rem;
+    width: 150px;
+    height:30px;
+}
+.button:hover {
+    cursor: pointer;
+    color: #F5C16C;
 }
