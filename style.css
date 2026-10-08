@@ -23,11 +23,20 @@ a:active {
     text-decoration: none;
     font-family: "Open Sans"
 }
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 32px;
+}
 .title {
     font-size: large;
-    font-family: "Princess Sofia", "Remedy, sans-serif";
-    font-style: normal;
+    font-family: "remedy", sans-serif, "Princess Sofia";
     font-weight: 400;
+    font-style: normal;
+}
+.hero-image {
+    width:100vw
 }
 .dragonflyprint {
     width: 100vw;
@@ -64,10 +73,17 @@ h6 {
 .footer {
     color: #ffffd5;
     background-color: #693072;
-    font-size: 6 px;
+    font-size: 12 px;
     text-align: left;
     text-decoration: none;
     font-family: "Open Sans"
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 32px;
 }
 h1 {
     color: #693072;
@@ -78,6 +94,11 @@ h4 {
     font-size: 14px;
     font-weight: 200;
 }
+.hero {
+    color:#FFFFD5;
+    font-size: 36px;
+    text-align: center;
+}
 .largertext {
     color:#693072;
     font-size: 36px;
@@ -87,13 +108,45 @@ h4 {
 .button {
     color:#693072;
     background-color: #ffffd5;
-    border-style:dotted;
-    text-align:center;
+    border-style: dotted;
+    text-align: center;
     border-radius: 3rem;
     width: 150px;
-    height:30px;
+    height: 30px;
 }
 .button:hover {
     cursor: pointer;
     color: #F5C16C;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.child {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+@media screen and (min-width:320px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 1.5rem;
+    }
+}
+.hero-background {
+    background: url('./assets/hero-image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20rem;
+}
+.hero-message {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: flex-end;
+}
+.top-ruffle {
+    background-color: #693072;
 }
